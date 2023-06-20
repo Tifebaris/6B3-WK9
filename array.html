@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+ </head>
+ <body>
+    <p></p>
+    <p></p>
+    <script>
+        const para = document.querySelector('p:first-of-type')
+        const para2 = document.querySelector('p:last-of-type')
+
+        let names = 'tayo victor fatimoh jide joshua'
+        let arr = [45,37,355,4,5,620,70 ,8]
+
+        names = names.split(' ')
+        // to add a value inside an array
+        names.push('dami', 'precious')
+
+        // to add at the start of an array
+        names.unshift('kola') .
+
+        names.splice(3,0, 'darasimi', 'franc')
+
+        names.splice(4,1, 'nero')
+
+        oldNames = names.slice()
+
+        oldNames.pop()
+
+        names.shift()
+
+        let pastStud = ['sharon', 'thariwat', 'ben', 'stephen']
+
+        names.push(...pastStud)
+
+
+        para.textContent = 'Old names:' + arr.sort
+        ((a,b)=> a-b)
+        para2.innerText = 'Current names:' +
+        names.map(name => name.replace(name[0],
+        name[0].toUpperCase())) 
+
+        para2.textContent = names.sort().reverse()
+    </script>
+ </body>
+ </html>
