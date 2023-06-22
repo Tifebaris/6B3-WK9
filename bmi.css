@@ -1,0 +1,31 @@
+/* body{
+    background-color: #04071F;
+    color: white;
+} */
+
+/* main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    /* margin: auto;
+    /* max-width: 50%; */
+    /* background-color: #060927;
+    color: white;
+    height: 500px;  */
+
+body{
+    background-color: #060927;
+    color: #fff;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+
+}
+
+.hidden{
+     display: none;
+        }
+ 
+ 
